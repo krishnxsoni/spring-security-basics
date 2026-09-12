@@ -20,6 +20,9 @@ public class Role
     @Column(name = "ROLE_NAME")
     private String roleName;
 
+    @Column(name = "ROLE_CODE")
+    private String roleCode;
+
     @Column(name = "DELETE_FLAG")
     private String deleteFlag;
 
