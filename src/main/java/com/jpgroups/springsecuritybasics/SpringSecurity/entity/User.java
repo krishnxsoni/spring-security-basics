@@ -34,6 +34,6 @@ public class User
     @JoinTable(name = "USER_ROLE_MAPPING",
     joinColumns = @JoinColumn(name = "user_id"),
     inverseJoinColumns = @JoinColumn(name = "ROLE_ID"))
-    private Set<Role> roleList = new HashSet<>();
+    private Set<Role> role = new HashSet<>();
 
 }
